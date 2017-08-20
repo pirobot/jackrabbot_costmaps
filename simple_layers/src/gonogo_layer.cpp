@@ -41,8 +41,8 @@ namespace simple_layer_namespace
     if (!enabled_)
       return;
 
-    mark_x_ = robot_x + cos(robot_yaw);
-    mark_y_ = robot_y + sin(robot_yaw);
+    mark_x_ = robot_x + 0.35*cos(robot_yaw);
+    mark_y_ = robot_y + 0.35*sin(robot_yaw);
 
     *min_x = std::min(*min_x, mark_x_);
     *min_y = std::min(*min_y, mark_y_);
