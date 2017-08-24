@@ -126,7 +126,10 @@ add_library(grid_layer src/grid_layer.cpp)
 
 add_library(simple_layer src/simple_layer.cpp)
 
-add_library(gonogo_layer src/gonogo_layer.cpp)
+add_library(gonogo_simple_layer src/gonogo_simple_layer.cpp)
+
+add_library(gonogo_grid_layer src/gonogo_grid_layer.cpp)
+
 
 #add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/simple_layers.cpp
