@@ -44,8 +44,6 @@ namespace simple_layer_namespace
     if (!enabled_)
       return;
 
-    std::cout << robot_x << std::endl;
-
     double mark_x = robot_x + cos(robot_yaw), mark_y = robot_y + sin(robot_yaw);
     unsigned int mx;
     unsigned int my;
